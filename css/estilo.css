@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+/* line 8, ../finalsass/sass/_estructura.scss */
+body .hinchada {
+  display: flex;
+  margin: auto;
+  padding: 7px;
+}
+
+/* line 14, ../finalsass/sass/_estructura.scss */
+body .imgnob2 {
+  align-items: left;
+  padding: 7px;
+}
+
+/* line 21, ../finalsass/sass/_estructura.scss */
+body .tienda {
+  display: flex;
+  margin: auto;
+  padding: 3px;
+}
+.canecas{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+}
+
+/* line 27, ../finalsass/sass/_estructura.scss */
+body .card {
+  display: flex;
+  margin: auto;
+}
+
+/* line 30, ../finalsass/sass/_estructura.scss */
+body .card-img-top {
+  display: flex;
+  margin: auto;
+}
+
+/* line 33, ../finalsass/sass/_estructura.scss */
+body .videosyoutube {
+  display: flex;
+}
+
+/* line 36, ../finalsass/sass/_estructura.scss */
+body .iframe {
+  display: flex;
+  margin: auto;
+  padding: 7px;
+}
+
+/* line 40, ../finalsass/sass/_estructura.scss */
+body .slider-frame {
+  margin: 50px auto 0;
+}
+
+/* line 44, ../finalsass/sass/_estructura.scss */
+body .slider-frame ul {
+  display: flex;
+  padding: 0;
+}
+
+/* line 49, ../finalsass/sass/_estructura.scss */
+body .formunob {
+  padding: 1.3em;
+  margin: 0 auto;
+}
+
+/* line 53, ../finalsass/sass/_estructura.scss */
+body .fixture {
+  display: flex;
+  margin: auto;
+  padding: 3px;
+}
+
+/* line 59, ../finalsass/sass/_estructura.scss */
+body footer {
+  display: flex;
+  padding: 3px;
+}
+
+/* line 65, ../finalsass/sass/_estructura.scss */
+body .listalinks {
+  display: flex;
+}
+
+/* line 68, ../finalsass/sass/_estructura.scss */
+body .canob {
+  display: flex;
+}
+
+/* line 72, ../finalsass/sass/_estructura.scss */
+body .lpf {
+  display: flex;
+}
+
+/* line 78, ../finalsass/sass/_estructura.scss */
+body .noticia, body .seccion1 {
+  margin: 4px;
+}
+
+/* line 1, ../finalsass/sass/_detalles.scss */
+.hinchada, .videosyoutube, .iframe {
+  border: 4px;
+  max-width: 100%;
+}
+
+/* line 7, ../finalsass/sass/_detalles.scss */
+.seccion1 .titulo {
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+}
+
+/* line 11, ../finalsass/sass/_detalles.scss */
+.seccion1 p {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Tapestry', cursive;
+  color: #423c3c;
+}
+
+/* line 17, ../finalsass/sass/_detalles.scss */
+.seccion1 .titulo2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+}
+
+/* line 26, ../finalsass/sass/_detalles.scss */
+.noticia h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 31, ../finalsass/sass/_detalles.scss */
+.noticia h4 {
+  font-size: 18px;
+}
+
+/* line 37, ../finalsass/sass/_detalles.scss */
+.hinchada {
+  border-radius: 20px;
+}
+
+/* line 42, ../finalsass/sass/_detalles.scss */
+.imgnob2 {
+  border-radius: 20px;
+  border: 4px;
+  max-width: 50%;
+}
+
+/* line 50, ../finalsass/sass/_detalles.scss */
+.tiendoficial {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+/* line 55, ../finalsass/sass/_detalles.scss */
+.tienda {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 61, ../finalsass/sass/_detalles.scss */
+.card {
+  align-items: center;
+  align-content: center;
+}
+
+/* line 65, ../finalsass/sass/_detalles.scss */
+.card-img-top {
+  align-items: center;
+  width: 200px;
+}
+
+/* line 69, ../finalsass/sass/_detalles.scss */
+.videosyoutube {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 75, ../finalsass/sass/_detalles.scss */
+.videosdestacados {
+  font-size: 30px;
+}
+
+/* line 84, ../finalsass/sass/_detalles.scss */
+.tituloglorias {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+/* line 93, ../finalsass/sass/_detalles.scss */
+.slider-frame {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+/* line 98, ../finalsass/sass/_detalles.scss */
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+/* line 106, ../finalsass/sass/_detalles.scss */
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+/* line 111, ../finalsass/sass/_detalles.scss */
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/* line 129, ../finalsass/sass/_detalles.scss */
+.formulario {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* line 136, ../finalsass/sass/_detalles.scss */
+.formunob {
+  max-width: 25em;
+  font-weight: bold;
+  box-shadow: inset 1px  1px 22px 4px;
+}
+
+/* line 142, ../finalsass/sass/_detalles.scss */
+.fixture {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 151, ../finalsass/sass/_detalles.scss */
+footer {
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: 'Anton', sans-serif;
+}
+
+/* line 159, ../finalsass/sass/_detalles.scss */
+.leyendapie {
+  text-align: center;
+}
+
+/* line 164, ../finalsass/sass/_detalles.scss */
+.linkspie {
+  text-align: center;
+}
+
+/* line 169, ../finalsass/sass/_detalles.scss */
+.listalinks {
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+/* line 175, ../finalsass/sass/_detalles.scss */
+.canob {
+  align-items: center;
+  width: 60px;
+}
+
+/* line 181, ../finalsass/sass/_detalles.scss */
+.lpf {
+  align-items: center;
+  width: 60px;
+}
+
+/* line 188, ../finalsass/sass/_detalles.scss */
+.animacionunite {
+  text-align: center;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+/* line 199, ../finalsass/sass/_detalles.scss */
+.divan2 {
+  color: white;
+}
+
+/* line 205, ../finalsass/sass/_detalles.scss */
+.divan {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+}
+
+/* line 212, ../finalsass/sass/_detalles.scss */
+.divan:first-of-type {
+  /* For increasing performance 
+                           ID/Class should've been used. 
+                           For a small demo 
+                           it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+/* line 219, ../finalsass/sass/_detalles.scss */
+.divan:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+/* line 224, ../finalsass/sass/_detalles.scss */
+.divan:last-of-type span {
+  margin-left: -355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+
+/* line 5, ../finalsass/sass/_colores.scss */
+body .encabezado {
+  background:url(../imagenes/fondofan.jpg)
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+}
+
+.elpie {
+  background-color: #d30b0b;
+  text-align: center;
+}
+
+/* line 12, ../finalsass/sass/_colores.scss */
+body section .titulo {
+  color: #d30b0b;
+}
+
+/* line 15, ../finalsass/sass/_colores.scss */
+body section .titulo2 {
+  color: #d30b0b;
+}
+
+/* line 19, ../finalsass/sass/_colores.scss */
+body .tiendaoficial {
+  background-color: #d30b0b;
+}
+
+/* line 22, ../finalsass/sass/_colores.scss */
+body .display-2 {
+  color: white;
+}
+
+/* line 24, ../finalsass/sass/_colores.scss */
+body .videosyoutube {
+  background-color: black;
+}
+
+/* line 27, ../finalsass/sass/_colores.scss */
+body .tituloglorias {
+  color: white;
+}
+
+/* line 30, ../finalsass/sass/_colores.scss */
+body .formulario {
+  background-image: url("../imagenes/tribuna.jpg");
+  color: white;
+}
+
+/* line 34, ../finalsass/sass/_colores.scss */
+body .formulario .formunob {
+  background-color: rgba(120, 119, 123, 0.3);
+}
+
+/* line 41, ../finalsass/sass/_colores.scss */
+body .fixture {
+  color: black;
+  background-image: url("../imagenes/jugadores.jpg");
+}
+
+/* line 48, ../finalsass/sass/_colores.scss */
+body .noticia h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 53, ../finalsass/sass/_colores.scss */
+body .noticia h4 {
+  color: grey;
+}
+
+/* line 59, ../finalsass/sass/_colores.scss */
+body footer {
+  background: #d30b0b;
+}
+
+/* line 62, ../finalsass/sass/_colores.scss */
+body .glorias {
+  background: url(../imagenes/fondonob.jpg);
+}
+
+/*# sourceMappingURL=estilo.css.map */
